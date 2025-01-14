@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Modern, clean font */
+    background: linear-gradient(to right, #e8f1fc, #f8fbff); /* Soft pastel blue gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    margin: 0;
+  }
+  
+  .app-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .form-container h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #3a3a3a; /* A deep gray for better readability */
+    text-transform: uppercase; /* Gives a modern feel */
+    letter-spacing: 2px; /* Slight spacing for elegance */
+  }
+  
+  .input-textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; /* Secondary modern font for inputs */
+    margin-bottom: 15px;
+    outline: none;
+    resize: none;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input-textarea:focus {
+    border: 1px solid #7b93c1;
+    box-shadow: 0 0 8px rgba(123, 147, 193, 0.4);
+  }
+  
+  .input-select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input-select:focus {
+    border: 1px solid #7b93c1;
+    box-shadow: 0 0 8px rgba(123, 147, 193, 0.4);
+  }
+  
+  .generate-button {
+    width: 100%;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Subtle modern blue gradient */
+    color: #ffffff;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .generate-button:disabled {
+    background: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .generate-button:hover:not(:disabled) {
+    background: linear-gradient(to right, #8abaf5, #b6dcf7);
+    transform: scale(1.02); /* Slight hover effect */
+  }
+  
+  .generate-button:active:not(:disabled) {
+    transform: scale(0.98); /* Click effect */
+  }
+  
